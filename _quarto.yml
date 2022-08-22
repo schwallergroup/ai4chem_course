@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "ai4chem"
+  author: "Philippe Schwaller"
+  date: "8/22/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
