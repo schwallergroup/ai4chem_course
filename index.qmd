@@ -38,6 +38,7 @@ The cheminformatics and ML for chemistry have a lively open source community. He
 - [iwatobipens' blog](https://iwatobipen.wordpress.com)
 - [Rocío Mercado's dl-chem-101](https://github.com/rociomer/dl-chem-101)
 - [Jan H. Jensen's Machine Learning Basics](https://sites.google.com/view/ml-basics/home)
+- [Pat Walter's Practical Cheminformatics With Open Source Software](https://github.com/PatWalters/practical_cheminformatics_tutorials)
 
 ### AI for Science
 - [Lewis Tunstall's Deep Learning for Particle Physicists](https://lewtun.github.io/dl4phys/intro.html)
