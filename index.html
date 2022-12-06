@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Philippe Schwaller">
+<meta name="dcterms.date" content="2022-12-01">
+
+<title>AI 4 Chemistry</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./references.html" rel="next">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">AI 4 Chemistry</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">AI 4 Chemistry</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#ai4chemistry-course" id="toc-ai4chemistry-course" class="nav-link" data-scroll-target="#ai4chemistry-course">AI4Chemistry course</a></li>
+  <li><a href="#tentative-content" id="toc-tentative-content" class="nav-link" data-scroll-target="#tentative-content">Tentative content</a></li>
+  <li><a href="#inspiration" id="toc-inspiration" class="nav-link" data-scroll-target="#inspiration">Inspiration</a>
+  <ul class="collapse">
+  <li><a href="#cheminformatics-ml-for-chemistry" id="toc-cheminformatics-ml-for-chemistry" class="nav-link" data-scroll-target="#cheminformatics-ml-for-chemistry">Cheminformatics / ML for Chemistry</a></li>
+  <li><a href="#ai-for-science" id="toc-ai-for-science" class="nav-link" data-scroll-target="#ai-for-science">AI for Science</a></li>
+  <li><a href="#ml-data-science" id="toc-ml-data-science" class="nav-link" data-scroll-target="#ml-data-science">ML &amp; Data Science</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">AI 4 Chemistry</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Philippe Schwaller </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 1, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<section id="preface" class="level1 unnumbered">
+<h1 class="unnumbered">Preface</h1>
+<section id="ai4chemistry-course" class="level2">
+<h2 class="anchored" data-anchor-id="ai4chemistry-course">AI4Chemistry course</h2>
+<p>The Artificial Intelligence (AI) for Chemistry course will be taught in Spring 2023. It is a course with a lot of hands-on exercises. Experience in Python programming and machine learning (ML) will help you to get up to speed quickly, but we will try to make it as accessible as possible.</p>
+<p>We will make use of <a href="https://colab.research.google.com">Google Colab</a> to run the code directly in your browser, as there is zero configuration required and we will have access to GPUs free of charge.</p>
+<p>A lot of the examples and ideas in this course are taken from the open-source community, which we will properly reference.</p>
+</section>
+<section id="tentative-content" class="level2">
+<h2 class="anchored" data-anchor-id="tentative-content">Tentative content</h2>
+<ul>
+<li>Python fundamentals</li>
+<li>Python essential libraries (matplotlib, numpy, pandas)</li>
+<li>Cheminformatics toolkits (rdkit)</li>
+<li>Introduction into data science
+<ul>
+<li>Supervised machine learning (regression, classification)</li>
+<li>Unsupervised machine learning</li>
+<li>Data and standardisation</li>
+</ul></li>
+<li>Deep Learning for Chemistry
+<ul>
+<li>Property prediction models</li>
+<li>Inverse Design<span class="citation" data-cites="sanchez2018inverse"><sup><a href="references.html#ref-sanchez2018inverse" role="doc-biblioref">1</a></sup></span></li>
+<li>Reaction prediction and retrosynthesis<span class="citation" data-cites="schwaller2022machine"><sup><a href="references.html#ref-schwaller2022machine" role="doc-biblioref">2</a></sup></span></li>
+</ul></li>
+<li>Advanced topics in AI for Chemistry
+<ul>
+<li>Bayesian optimisation for chemical reactions</li>
+<li>Catalyst design</li>
+</ul></li>
+</ul>
+</section>
+<section id="inspiration" class="level2">
+<h2 class="anchored" data-anchor-id="inspiration">Inspiration</h2>
+<p>The cheminformatics and ML for chemistry have a lively open source community. Here is a collection of inspirational blogs and webpages, from which we discuss examples:</p>
+<section id="cheminformatics-ml-for-chemistry" class="level3">
+<h3 class="anchored" data-anchor-id="cheminformatics-ml-for-chemistry">Cheminformatics / ML for Chemistry</h3>
+<ul>
+<li><a href="https://dmol.pub">Andrew White’s Deep Learning for Molecules &amp; Materials book</a></li>
+<li><a href="http://education.molssi.org/resources.html#programming">MolSSI Education Resources</a></li>
+<li><a href="https://greglandrum.github.io/rdkit-blog/">Greg Landrum’s RDKit blog</a></li>
+<li><a href="https://www.cheminformania.com">Esben Bjerrum’s Cheminformania</a></li>
+<li><a href="https://iwatobipen.wordpress.com">iwatobipens’ blog</a></li>
+<li><a href="https://github.com/rociomer/dl-chem-101">Rocío Mercado’s dl-chem-101</a></li>
+<li><a href="https://sites.google.com/view/ml-basics/home">Jan H. Jensen’s Machine Learning Basics</a></li>
+<li><a href="https://github.com/PatWalters/practical_cheminformatics_tutorials">Pat Walter’s Practical Cheminformatics With Open Source Software</a></li>
+</ul>
+</section>
+<section id="ai-for-science" class="level3">
+<h3 class="anchored" data-anchor-id="ai-for-science">AI for Science</h3>
+<ul>
+<li><a href="https://lewtun.github.io/dl4phys/intro.html">Lewis Tunstall’s Deep Learning for Particle Physicists</a></li>
+<li><a href="https://leshouches2022.github.io">Summer school on Statistical Physics &amp; Machine learning</a> organised by Florent Krzakala and Lenka Zdeborova, EPFL</li>
+</ul>
+</section>
+<section id="ml-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="ml-data-science">ML &amp; Data Science</h3>
+<ul>
+<li><a href="https://course.fast.ai">Practical Deep Learning</a></li>
+<li><a href="http://introtodeeplearning.com">MIT’s Intro to Deep Learning</a></li>
+<li><a href="https://github.com/ageron/handson-ml2">Aurelien Geron’s Hands-on Machine Learning</a></li>
+<li><a href="https://lewtun.github.io/dslectures/">Lewis Tunstall’s Introduction to Data Science</a></li>
+<li><a href="https://github.com/nlp-with-transformers/notebooks">Natural Language Processing with Transformers by HuggingFace</a></li>
+</ul>
+<p>Check them out and don’t forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry).</p>
+
+
+<div id="refs" class="references csl-bib-body" data-line-spacing="2" role="doc-bibliography" style="display: none">
+<div id="ref-sanchez2018inverse" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sanchez-Lengeling, B. &amp; Aspuru-Guzik, A. Inverse molecular design using machine learning: Generative models for matter engineering. <em>Science</em> <strong>361</strong>, 360–365 (2018).</div>
+</div>
+<div id="ref-schwaller2022machine" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Schwaller, P. <em>et al.</em> Machine intelligence for chemical reaction space. <em>Wiley Interdisciplinary Reviews: Computational Molecular Science</em> e1604 (2022).</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

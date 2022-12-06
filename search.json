@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI 4 Chemistry",
+    "section": "",
+    "text": "The Artificial Intelligence (AI) for Chemistry course will be taught in Spring 2023. It is a course with a lot of hands-on exercises. Experience in Python programming and machine learning (ML) will help you to get up to speed quickly, but we will try to make it as accessible as possible.\nWe will make use of Google Colab to run the code directly in your browser, as there is zero configuration required and we will have access to GPUs free of charge.\nA lot of the examples and ideas in this course are taken from the open-source community, which we will properly reference.\n\n\n\n\nPython fundamentals\nPython essential libraries (matplotlib, numpy, pandas)\nCheminformatics toolkits (rdkit)\nIntroduction into data science\n\nSupervised machine learning (regression, classification)\nUnsupervised machine learning\nData and standardisation\n\nDeep Learning for Chemistry\n\nProperty prediction models\nInverse Design1\nReaction prediction and retrosynthesis2\n\nAdvanced topics in AI for Chemistry\n\nBayesian optimisation for chemical reactions\nCatalyst design\n\n\n\n\n\nThe cheminformatics and ML for chemistry have a lively open source community. Here is a collection of inspirational blogs and webpages, from which we discuss examples:\n\n\n\nAndrew White’s Deep Learning for Molecules & Materials book\nMolSSI Education Resources\nGreg Landrum’s RDKit blog\nEsben Bjerrum’s Cheminformania\niwatobipens’ blog\nRocío Mercado’s dl-chem-101\nJan H. Jensen’s Machine Learning Basics\nPat Walter’s Practical Cheminformatics With Open Source Software\n\n\n\n\n\nLewis Tunstall’s Deep Learning for Particle Physicists\nSummer school on Statistical Physics & Machine learning organised by Florent Krzakala and Lenka Zdeborova, EPFL\n\n\n\n\n\nPractical Deep Learning\nMIT’s Intro to Deep Learning\nAurelien Geron’s Hands-on Machine Learning\nLewis Tunstall’s Introduction to Data Science\nNatural Language Processing with Transformers by HuggingFace\n\nCheck them out and don’t forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry).\n\n\n\n\n1. Sanchez-Lengeling, B. & Aspuru-Guzik, A. Inverse molecular design using machine learning: Generative models for matter engineering. Science 361, 360–365 (2018).\n\n\n2. Schwaller, P. et al. Machine intelligence for chemical reaction space. Wiley Interdisciplinary Reviews: Computational Molecular Science e1604 (2022)."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "1. Schwaller, P. et al. Machine\nintelligence for chemical reaction space. Wiley Interdisciplinary\nReviews: Computational Molecular Science e1604 (2022).\n\n\n2. Sanchez-Lengeling, B. & Aspuru-Guzik, A.\nInverse molecular design using machine learning: Generative models for\nmatter engineering. Science 361, 360–365\n(2018)."
+  }
+]
