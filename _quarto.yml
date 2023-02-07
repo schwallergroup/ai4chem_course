@@ -2,16 +2,15 @@ project:
   type: book
 
 book:
-  title: "ai4chem"
+  title: "AI 4 Chemistry"
   author: "Philippe Schwaller"
-  date: "8/22/2022"
+  date: "12/1/2022"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
     - references.qmd
 
 bibliography: references.bib
+csl: nature.csl
 
 format:
   html:
