@@ -25,7 +25,7 @@ A lot of the examples and ideas in this course are taken from the open-source co
 
 | Week | Topic | Link to Colab |
 |-|--|--|
-| 1 | Python and Jupyter | |
+| 1 | Python and Jupyter | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01a_python_crash_course.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Essential Python libraries | |
 |  | Intro to RDKit | | 
 | 2 | ||
