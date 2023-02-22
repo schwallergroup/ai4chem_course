@@ -1,0 +1,1 @@
+df['MW'] = df['Molecule'].apply(MolWt)
