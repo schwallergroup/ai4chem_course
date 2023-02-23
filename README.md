@@ -25,10 +25,10 @@ A lot of the examples and ideas in this course are taken from the open-source co
 
 | Week | Topic | Link to Colab |
 |-|--|--|
-| 1 | Python and Jupyter | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01a_python_crash_course.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| | Pandas | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01b_python_essentials_pandas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
-| | Plotting  data | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01c_python_essentials_plotting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | 
-|  | Intro to RDKit | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01d_rdkit_basics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  | 
+| 1 | Python and Jupyter | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01 - Basics/01a_python_crash_course.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| | Pandas | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01 - Basics/01b_python_essentials_pandas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| | Plotting  data | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01 - Basics/01c_python_essentials_plotting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | 
+|  | Intro to RDKit | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01 - Basics/01d_rdkit_basics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  | 
 | 2 | ||
 : Weekly schedule
 
