@@ -1,3 +1,0 @@
-!ls
-!mkdir data
-!mv delaney-processed.csv data/
