@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "AI 4 Chemistry"
+  title: "EPFL CH-457"
   author: "Philippe Schwaller"
-  date: "12/1/2022"
+  date: "3/3/2023"
   chapters:
     - index.qmd
     - references.qmd

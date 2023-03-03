@@ -6,6 +6,17 @@ We will make use of [Google Colab](https://colab.research.google.com) to run the
 
 A lot of the examples and ideas in this course are taken from the open-source community, which we will properly reference.
 
+## Contributors
+
+This course is being created by the [LIAC team](https://schwallergroup.github.io/team.html). 
+Many thanks to all the TAs:
+
+- [Victor Sabanza Gil](https://twitter.com/VictorSabanza)
+- [Bojana Ranković](https://twitter.com/6ojaHa)
+- [Junwu Chen](https://twitter.com/JunwuChen25)
+- [Andres CM Bran](https://twitter.com/drecmb)
+- [Jeff Guo](https://twitter.com/JeffGuo__)
+
 ## Tentative content
 
 - Python Crash Course & essential libraries (matplotlib, numpy, pandas)
@@ -59,3 +70,7 @@ The cheminformatics and ML for chemistry have a lively open source community. He
 
 Check them out and don't forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. 
 Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry).
+
+## Tweets
+
+{{< tweet pschwllr 1629098793399472130 >}}
