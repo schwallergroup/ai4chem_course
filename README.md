@@ -35,7 +35,7 @@ Many thanks to all the TAs:
 ## Exercises
 
 | Week | Topic | Link to Colab |
-|-|--|--|
+|--|--|--|
 <<<<<<< HEAD
 | 1 | Python and Jupyter | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01a_python_crash_course.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Pandas | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01b_python_essentials_pandas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
