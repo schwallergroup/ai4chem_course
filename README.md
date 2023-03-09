@@ -30,8 +30,8 @@ A lot of the examples and ideas in this course are taken from the open-source co
 | | Plotting  data | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01c_python_essentials_plotting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | 
 |  | Intro to RDKit | | 
 |2 | Suppervised ML |<a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/scikit_learn/notebooks/02%20-%20Supervised%20Learning/training_and_evaluating_ml_models.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| 3 | Introduction to Deep Learning | <a href=\"https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/intro_to_dl.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a> |
-| | Inductive biases | <a href=\"https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/graph_nns.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a> |
+| 3 | Introduction to Deep Learning | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/intro_to_dl.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| | Inductive biases | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/graph_nns.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## Inspiration
 
