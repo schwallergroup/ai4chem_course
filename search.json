@@ -32,7 +32,7 @@
     "href": "index.html#exercises",
     "title": "EPFL CH-457",
     "section": "Exercises",
-    "text": "Exercises\n\n\n\n\n\n\n\n\nWeek\nTopic\nLink to Colab\n\n\n\n\n1\nPython and Jupyter\n\n\n\n\nPandas\n\n\n\n\nPlotting data\n\n\n\n\nIntro to RDKit\n\n\n\n2\nSupervised ML\n\n\n\n3\nIntroduction to Deep Learning\n\n\n\n\nGraph Neural Network"
+    "text": "Exercises\n\n\n\n\n\n\n\n\nWeek\nTopic\nLink to Colab\n\n\n\n\n1\nPython and Jupyter\n\n\n\n\nPandas\n\n\n\n\nPlotting data\n\n\n\n\nIntro to RDKit\n\n\n\n2\nSupervised ML\n\n\n\n3\nIntroduction to Deep Learning\n\n\n\n\nGraph Neural Network\n\n\n\n\nGNN example - chemprop"
   },
   {
     "objectID": "index.html#inspiration",
