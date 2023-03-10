@@ -6,6 +6,17 @@ We will make use of [Google Colab](https://colab.research.google.com) to run the
 
 A lot of the examples and ideas in this course are taken from the open-source community, which we will properly reference.
 
+## Contributors
+
+This course is being created by the [LIAC team](https://schwallergroup.github.io/team.html). 
+Many thanks to all the TAs:
+
+- [Victor Sabanza Gil](https://twitter.com/VictorSabanza)
+- [Bojana Ranković](https://twitter.com/6ojaHa)
+- [Junwu Chen](https://twitter.com/JunwuChen25)
+- [Andres CM Bran](https://twitter.com/drecmb)
+- [Jeff Guo](https://twitter.com/JeffGuo__)
+
 ## Tentative content
 
 - Python Crash Course & essential libraries (matplotlib, numpy, pandas)
@@ -24,14 +35,14 @@ A lot of the examples and ideas in this course are taken from the open-source co
 ## Exercises
 
 | Week | Topic | Link to Colab |
-|-|--|--|
-| 1 | Python and Jupyter | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01a_python_crash_course.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| | Pandas | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01b_python_essentials_pandas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
-| | Plotting  data | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01c_python_essentials_plotting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | 
-|  | Intro to RDKit | | 
-|2 | Suppervised ML |<a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/scikit_learn/notebooks/02%20-%20Supervised%20Learning/training_and_evaluating_ml_models.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|--|--|--|
+| 1 | Python and Jupyter | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01a_python_crash_course.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| | Pandas | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01b_python_essentials_pandas.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
+| | Plotting  data | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01c_python_essentials_plotting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | 
+|  | Intro to RDKit | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/01%20-%20Basics/01d_rdkit_basics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | 
+|2 | Supervised ML |<a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/02%20-%20Supervised%20Learning/training_and_evaluating_ml_models.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | 3 | Introduction to Deep Learning | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/01_intro_to_dl.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| | Inductive biases | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/02_graph_nns.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| | Graph Neural Network | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/03%20-%20Intro%20to%20Deep%20Learning/02_graph_nns.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## Inspiration
 
@@ -60,3 +71,7 @@ The cheminformatics and ML for chemistry have a lively open source community. He
 
 Check them out and don't forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. 
 Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry).
+
+## Tweets
+
+{{< tweet pschwllr 1629098793399472130 >}}
