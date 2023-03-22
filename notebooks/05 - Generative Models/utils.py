@@ -31,6 +31,7 @@ model = load_from_file('pretrained.rnn.pth')
 
 # batch size hard-coded as 1 here just for illustration --> this method samples 1 SMILES
 def sample(batch_size=1):
+    model = load_from_file('pretrained.rnn.pth')
     loss = torch.nn.NLLLoss(reduction='none')
     start_token = torch.zeros(batch_size,
                               dtype=torch.long,
