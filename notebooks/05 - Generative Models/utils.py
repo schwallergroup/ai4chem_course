@@ -2,10 +2,6 @@ import torch
 from smiles_lstm.model.smiles_vocabulary import SMILESTokenizer
 from smiles_lstm.model.smiles_lstm import SmilesLSTM
 
-smiles_tokenizer = SMILESTokenizer()
-model = SmilesLSTM([], smiles_tokenizer)
-
-
 def load_from_file(file_path : str, sampling_mode : bool=False):
     """
     Loads a model from a single file.
@@ -22,12 +18,6 @@ def load_from_file(file_path : str, sampling_mode : bool=False):
         model.network.eval()
 
     return model
-
-# this is a pre-trained model that we will just load and use
-# it was somewhat trained for an arbitrary length of time as its 
-# purpose was just to illustrate that it can generate valid SMILES
-
-model = load_from_file('dl-chem-101/03_gen_SMILES_LSTM/trained_model/model.49.pth')
 
 # batch size hard-coded as 1 here just for illustration --> this method samples 1 SMILES
 def sample(batch_size=1):
