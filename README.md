@@ -47,7 +47,9 @@ Many thanks to all the TAs:
 | 4 | Dimensionality reduction | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/04%20-%20Unsupervised%20Learning/DimensionalityReduction.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Clustering | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/04%20-%20Unsupervised%20Learning/Clustering.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Pd dimers discovery by kMeans | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/04%20-%20Unsupervised%20Learning/palladium_dimers_discovery.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| 5 | De novo molecule generation | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/generative_models/notebooks/05%20-%20Generative%20Models/Molecular%20Generative%20Models.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
+The solutions can be found in this [GitHub repo](https://github.com/schwallergroup/ai4chem_course). Don't forget to leave a star, if you find it useful. 
 
 ## Inspiration
 
@@ -62,6 +64,7 @@ The cheminformatics and ML for chemistry have a lively open source community. He
 - [Rocío Mercado's dl-chem-101](https://github.com/rociomer/dl-chem-101)
 - [Jan H. Jensen's Machine Learning Basics](https://sites.google.com/view/ml-basics/home)
 - [Pat Walter's Practical Cheminformatics With Open Source Software](https://github.com/PatWalters/practical_cheminformatics_tutorials)
+- [Kjell Jorner's blog](https://www.valencekjell.com)
 
 ### AI for Science
 - [Lewis Tunstall's Deep Learning for Particle Physicists](https://lewtun.github.io/dl4phys/intro.html)
