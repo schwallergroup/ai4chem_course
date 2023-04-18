@@ -99,6 +99,7 @@ def get_prediction_rank(row, col_name, max_rank):
 def evaluate():
 
     evaluation_df = get_eval_df()
+    total = evaluation_df.shape[0]
     evaluation_df['prediction_rank'] = evaluation_df.progress_apply(lambda row: get_prediction_rank(row, 'canonical_prediction_', n_best), axis=1)
 
     correct = 0
