@@ -50,7 +50,7 @@ Many thanks to all the TAs:
 | 5 | De novo molecule generation (VAE) | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/generative_models/notebooks/05%20-%20Generative%20Models/Molecular%20Generative%20Models.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | 6 | De novo molecule generation (SMILES-LSTM) | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/smiles_lstm/notebooks/06%20-%20Generative%20Models%202/SMILES-LSTM-Walkthrough.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | 7 | Chemical reactions prediction: Template based methods | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/07%20-%20Reaction%20Prediction/template_based.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-|   | Template-free methods | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/07%20-%20Reaction%20Prediction/template_based.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|   | Template-free methods | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/07%20-%20Reaction%20Prediction/template_free.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
 The solutions can be found in this [GitHub repo](https://github.com/schwallergroup/ai4chem_course). Don't forget to leave a star, if you find it useful. 
