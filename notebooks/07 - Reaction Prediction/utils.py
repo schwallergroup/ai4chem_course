@@ -78,7 +78,7 @@ def get_eval_df():
 
     total = len(evaluation_df)
 
-    with open('results/USPTO480k_model_step_400000_val_predictions_precomputed.txt', 'r') as f:
+    with open('models/USPTO480k_model_step_400000_val_predictions.txt', 'r') as f:
 
         for i, line in enumerate(f):
             predictions[i % n_best].append(''.join(line.strip().split(' ')))
