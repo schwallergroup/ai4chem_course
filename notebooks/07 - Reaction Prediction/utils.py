@@ -96,7 +96,7 @@ def get_prediction_rank(row, col_name, max_rank):
             return i
     return 0
 
-def evaluate():
+def evaluate(n_best):
 
     evaluation_df = get_eval_df()
     total = evaluation_df.shape[0]
