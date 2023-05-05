@@ -35,20 +35,20 @@ def visualize_mols(mol_smi):
     display(img)
     
     
-from rdchiral.template_extractor import extract_from_reaction
-def extract_template(rxn_smi, id_=0):
+from rxnutils.chem.reaction import ChemicalReaction
+def extract_template(rxn):
 
-    rxn = rxn_smi.split('>>')
-    reaction = {'_id':id_, 'reactants': rxn[0], 'products': rxn[1]}
-    template = extract_from_reaction(reaction)
+    rxn = ChemicalReaction(rxn)
+    rxn_smarts = rxn.generate_reaction_template(radius=0)
+    if type(rxn_smarts)==tuple:
+        return rxn_smarts[0].smarts
+    return rxn_smarts.smarts
 
-    return template['reaction_smarts']
-
-
-def apply_template(tpl, prod):
-    rx = rdchiralReaction(tpl)
-    rct = rdchiralReactants(prod)
-    return rdchiralRun(rx,rct)
+def apply_template(tmplt, reacts):
+    rxn = AllChem.ReactionFromSmarts(tmplt)
+    reactants = [Chem.MolFromSmiles(x) for x in reacts.split('.')]
+    products = rxn.RunReactants(reactants)
+    return products
 
 
 import scipy
