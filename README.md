@@ -54,6 +54,8 @@ Many thanks to all the TAs:
 | 9 | Atom mapping | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/09%20-%20Reaction%20properties/01_atom_mapping.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Reaction fingerprints | <a href="https://colab.research.google.com/github/schwallergroup/drfp/blob/main/notebooks/01_fingerprinting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Yield prediction | <a href="https://colab.research.google.com/github/schwallergroup/drfp/blob/main/notebooks/02_model_explainability.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| 10 | Bayesian Optimisation | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/10%20-%20Bayesian%20optimization/Buchwald-Hartwig-BO.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+
 
 The solutions can be found in this [GitHub repo](https://github.com/schwallergroup/ai4chem_course). Don't forget to leave a star, if you find it useful. 
 
