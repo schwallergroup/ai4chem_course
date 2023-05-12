@@ -5,9 +5,7 @@ RDKit fragment features.
 
 import gpytorch
 import torch
-from additive_bo.gprotorch.kernels.fingerprint_kernels.base_fingerprint_kernel import (
-    BitKernel,
-)
+from base_fingerprint_kernel import BitKernel
 
 
 class TanimotoKernel(BitKernel):
