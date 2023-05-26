@@ -4,7 +4,7 @@ project:
 book:
   title: "EPFL CH-457"
   author: "Philippe Schwaller"
-  date: "3/3/2023"
+  date: "26/5/2023"
   chapters:
     - index.qmd
     - references.qmd
