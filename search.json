@@ -4,55 +4,79 @@
     "href": "index.html",
     "title": "EPFL CH-457",
     "section": "",
-    "text": "Preface"
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#ai4chemistry-course",
     "href": "index.html#ai4chemistry-course",
     "title": "EPFL CH-457",
     "section": "AI4Chemistry course",
-    "text": "AI4Chemistry course\nThe Artificial Intelligence (AI) for Chemistry course will be taught in Spring 2023. It is a course with a lot of hands-on exercises. Experience in Python programming and machine learning (ML) will help you to get up to speed quickly, but we will try to make it as accessible as possible.\nWe will make use of Google Colab to run the code directly in your browser, as there is zero configuration required and we will have access to GPUs free of charge.\nA lot of the examples and ideas in this course are taken from the open-source community, which we will properly reference."
+    "text": "AI4Chemistry course\nThe Artificial Intelligence (AI) for Chemistry course will be taught in Spring 2023. It is a course with a lot of hands-on exercises. Experience in Python programming and machine learning (ML) will help you to get up to speed quickly, but we will try to make it as accessible as possible.\nWe will make use of Google Colab to run the code directly in your browser, as there is zero configuration required and we will have access to GPUs free of charge.\nA lot of the examples and ideas in this course are taken from the open-source community, which we will properly reference.",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#contributors",
     "href": "index.html#contributors",
     "title": "EPFL CH-457",
     "section": "Contributors",
-    "text": "Contributors\nThis course is being created by the LIAC team. Many thanks to all the TAs:\n\nVictor Sabanza Gil\nBojana Ranković\nJunwu Chen\nAndres CM Bran\nJeff Guo"
+    "text": "Contributors\nThis course is being created by the LIAC team. Many thanks to all the TAs:\n\nVictor Sabanza Gil\nBojana Ranković\nJunwu Chen\nAndres CM Bran\nJeff Guo",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#tentative-content",
     "href": "index.html#tentative-content",
     "title": "EPFL CH-457",
     "section": "Tentative content",
-    "text": "Tentative content\n\nPython Crash Course & essential libraries (matplotlib, numpy, pandas)\nCheminformatics toolkits (rdkit)\nIntroduction into data science\n\nSupervised machine learning (regression, classification)\nUnsupervised machine learning\nData and standardisation\n\nDeep Learning for Chemistry\n\nProperty prediction models\nInverse Design1\nReaction prediction and retrosynthesis2\n\nAdvanced topics in AI for Chemistry\n\nBayesian optimisation for chemical reactions"
+    "text": "Tentative content\n\nPython Crash Course & essential libraries (matplotlib, numpy, pandas)\nCheminformatics toolkits (rdkit)\nIntroduction into data science\n\nSupervised machine learning (regression, classification)\nUnsupervised machine learning\nData and standardisation\n\nDeep Learning for Chemistry\n\nProperty prediction models\nInverse Design1\nReaction prediction and retrosynthesis2\n\nAdvanced topics in AI for Chemistry\n\nBayesian optimisation for chemical reactions",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#exercises",
     "href": "index.html#exercises",
     "title": "EPFL CH-457",
     "section": "Exercises",
-    "text": "Exercises\n\n\n\n\n\n\n\n\nWeek\nTopic\nLink to Colab\n\n\n\n\n1\nPython and Jupyter\n\n\n\n\nPandas\n\n\n\n\nPlotting data\n\n\n\n\nIntro to RDKit\n\n\n\n2\nSupervised ML\n\n\n\n3\nIntroduction to Deep Learning\n\n\n\n\nGraph Neural Network\n\n\n\n\nGNN example - chemprop\n\n\n\n4\nDimensionality reduction\n\n\n\n\nClustering\n\n\n\n\nPd dimers discovery by kMeans\n\n\n\n5\nDe novo molecule generation (VAE)\n\n\n\n6\nDe novo molecule generation (SMILES-LSTM)\n\n\n\n7\nChemical reactions prediction: Template-free methods\n\n\n\n8\nRetrosynthesis: Template-based methods\n\n\n\n9\nAtom mapping\n\n\n\n\nReaction fingerprints\n\n\n\n\nYield prediction\n\n\n\n10\nBayesian Optimisation\n\n\n\n11\nModel deployment: Git(hub)\n\n\n\n\nModel deployment: Streamlit\n\n\n\n12\nGuest lecture: AlphaFold2\n\n\n\n\nThe solutions can be found in this GitHub repo. Don’t forget to leave a star, if you find it useful."
+    "text": "Exercises\n\n\n\n\n\n\n\n\nWeek\nTopic\nLink to Colab\n\n\n\n\n1\nPython and Jupyter\n\n\n\n\nPandas\n\n\n\n\nPlotting data\n\n\n\n\nIntro to RDKit\n\n\n\n2\nSupervised ML\n\n\n\n3\nIntroduction to Deep Learning\n\n\n\n\nGraph Neural Network\n\n\n\n\nGNN example - chemprop\n\n\n\n4\nDimensionality reduction\n\n\n\n\nClustering\n\n\n\n\nPd dimers discovery by kMeans\n\n\n\n5\nDe novo molecule generation (VAE)\n\n\n\n6\nDe novo molecule generation (SMILES-LSTM)\n\n\n\n7\nChemical reactions prediction: Template-free methods\n\n\n\n8\nRetrosynthesis: Template-based methods\n\n\n\n9\nAtom mapping\n\n\n\n\nReaction fingerprints\n\n\n\n\nYield prediction\n\n\n\n10\nBayesian Optimisation\n\n\n\n11\nModel deployment: Git(hub)\n\n\n\n\nModel deployment: Streamlit\n\n\n\n12\nGuest lecture: AlphaFold2\n\n\n\n\nThe solutions can be found in this GitHub repo. Don’t forget to leave a star, if you find it useful.",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#inspiration",
     "href": "index.html#inspiration",
     "title": "EPFL CH-457",
     "section": "Inspiration",
-    "text": "Inspiration\nThe cheminformatics and ML for chemistry have a lively open source community. Here is a collection of inspirational blogs and webpages, from which we discuss examples:\n\nCheminformatics / ML for Chemistry\n\nAndrew White’s Deep Learning for Molecules & Materials book\nMolSSI Education Resources\nGreg Landrum’s RDKit blog\nEsben Bjerrum’s Cheminformania\niwatobipens’ blog\nRocío Mercado’s dl-chem-101\nJan H. Jensen’s Machine Learning Basics\nPat Walter’s Practical Cheminformatics With Open Source Software\nKjell Jorner’s blog\n\n\n\nAI for Science\n\nLewis Tunstall’s Deep Learning for Particle Physicists\nSummer school on Statistical Physics & Machine learning organised by Florent Krzakala and Lenka Zdeborova, EPFL\n\n\n\nML & Data Science\n\nPractical Deep Learning\nMIT’s Intro to Deep Learning\nAurelien Geron’s Hands-on Machine Learning\nLewis Tunstall’s Introduction to Data Science\nNatural Language Processing with Transformers by HuggingFace\n\nCheck them out and don’t forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry)."
+    "text": "Inspiration\nThe cheminformatics and ML for chemistry have a lively open source community. Here is a collection of inspirational blogs and webpages, from which we discuss examples:\n\nCheminformatics / ML for Chemistry\n\nAndrew White’s Deep Learning for Molecules & Materials book\nMolSSI Education Resources\nGreg Landrum’s RDKit blog\nEsben Bjerrum’s Cheminformania\niwatobipens’ blog\nRocío Mercado’s dl-chem-101\nJan H. Jensen’s Machine Learning Basics\nPat Walter’s Practical Cheminformatics With Open Source Software\nKjell Jorner’s blog\n\n\n\nAI for Science\n\nLewis Tunstall’s Deep Learning for Particle Physicists\nSummer school on Statistical Physics & Machine learning organised by Florent Krzakala and Lenka Zdeborova, EPFL\n\n\n\nML & Data Science\n\nPractical Deep Learning\nMIT’s Intro to Deep Learning\nAurelien Geron’s Hands-on Machine Learning\nLewis Tunstall’s Introduction to Data Science\nNatural Language Processing with Transformers by HuggingFace\n\nCheck them out and don’t forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry).",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "index.html#tweets",
     "href": "index.html#tweets",
     "title": "EPFL CH-457",
     "section": "Tweets",
-    "text": "Tweets\n\n\n\n\n\n1. Sanchez-Lengeling, B. & Aspuru-Guzik, A. Inverse molecular design using machine learning: Generative models for matter engineering. Science 361, 360–365 (2018).\n\n\n2. Schwaller, P. et al. Machine intelligence for chemical reaction space. Wiley Interdisciplinary Reviews: Computational Molecular Science e1604 (2022)."
+    "text": "Tweets\n{{&lt; tweet pschwllr 1629098793399472130 &gt;}}\n\n\n\n\n1. Sanchez-Lengeling, B. & Aspuru-Guzik, A. Inverse molecular design using machine learning: Generative models for matter engineering. Science 361, 360–365 (2018).\n\n\n2. Schwaller, P. et al. Machine intelligence for chemical reaction space. Wiley Interdisciplinary Reviews: Computational Molecular Science e1604 (2022).",
+    "crumbs": [
+      "Preface"
+    ]
   },
   {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "1. Sanchez-Lengeling, B. & Aspuru-Guzik, A.\nInverse molecular design using machine learning: Generative models for\nmatter engineering. Science 361, 360–365\n(2018).\n\n\n2. Schwaller, P. et al. Machine\nintelligence for chemical reaction space. Wiley Interdisciplinary\nReviews: Computational Molecular Science e1604 (2022)."
+    "text": "1. Sanchez-Lengeling, B. & Aspuru-Guzik, A.\nInverse molecular design using machine learning: Generative models for\nmatter engineering. Science 361, 360–365\n(2018).\n\n\n2. Schwaller, P. et al. Machine\nintelligence for chemical reaction space. Wiley Interdisciplinary\nReviews: Computational Molecular Science e1604 (2022).",
+    "crumbs": [
+      "References"
+    ]
   }
 ]
