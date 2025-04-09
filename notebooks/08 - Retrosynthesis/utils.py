@@ -4,6 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 from rdkit import Chem
+from rdkit.Chem.rdChemReactions import ReactionFromSmarts
 from rdchiral.main import rdchiralReaction, rdchiralReactants, rdchiralRun
 
 
@@ -17,14 +18,14 @@ def load_data():
     
     
 from rdkit import Chem
-from rdkit.Chem import AllChem, Draw
+from rdkit.Chem import Draw
 from rdkit.Chem.Draw import IPythonConsole
 IPythonConsole.molSize = (800, 200)
 IPythonConsole.highlightByReactant = True
 
 def visualize_chemical_reaction(reaction_smarts: str):
     # Create a RDKit reaction object from reaction SMARTS string
-    reaction = AllChem.ReactionFromSmarts(reaction_smarts, useSmiles=True)
+    reaction = ReactionFromSmarts(reaction_smarts, useSmiles=True)
     # Display images
     display(reaction)
     
@@ -37,19 +38,34 @@ def visualize_mols(mol_smi):
     
 
 from rxnutils.chem.reaction import ChemicalReaction
+
 def extract_template(rxn):
 
     rxn = ChemicalReaction(rxn)
-    rxn_smarts = rxn.generate_reaction_template(radius=0)
+    rxn_smarts = rxn.generate_reaction_template(radius=1)
     if type(rxn_smarts)==tuple:
-        return rxn_smarts[0]
-    return rxn_smarts
+        return rxn_smarts[0].smarts
+    
+    return rxn_smarts.smarts
 
-def apply_template(tmplt, reacts):
-    rxn = rdChemReactions.ReactionFromSmarts(tmplt)
+
+def apply_template(tmplt: str, 
+                   reacts: str,
+                   retro: bool = True):
+    """Apply template either in retro or forward direction
+    """
+    # if retro, invert template
+    if retro:
+        tmplt = f"{tmplt.split('>>')[1]}>>{tmplt.split('>>')[0]}"
+  
+    rxn = ReactionFromSmarts(tmplt)
     reactants = [Chem.MolFromSmiles(x) for x in reacts.split('.')]
-    products = rxn.RunReactants(reactants)
-    return products
+    products = rxn.RunReactants((reactants))
+
+    try:
+        return products[0]
+    except:
+        return None
 
 
 import scipy
