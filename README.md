@@ -12,8 +12,12 @@ This course is being created by the [LIAC team](https://schwallergroup.github.io
 Many thanks to all the TAs:
 
 - [Victor Sabanza Gil](https://twitter.com/VictorSabanza)
-- [Bojana Ranković](https://twitter.com/6ojaHa)
 - [Junwu Chen](https://twitter.com/JunwuChen25)
+- [Theo Neukomm](https://twitter.com/TheoNeukomm)
+
+And all the old TAs participating to the creation of the notebooks:
+
+- [Bojana Ranković](https://twitter.com/6ojaHa)
 - [Andres CM Bran](https://twitter.com/drecmb)
 - [Jeff Guo](https://twitter.com/JeffGuo__)
 
