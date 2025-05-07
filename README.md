@@ -61,7 +61,9 @@ And all the old TAs participating to the creation of the notebooks:
 | 11 | Model deployment: Git(hub) | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/11%20-%20Model%20deployment/git(hub)_tutorial.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Model deployment: Streamlit | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/11%20-%20Model%20deployment/streamlit_tutorial.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | 12 | Guest lecture: AlphaFold2 | <a href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| | CompChem: Constructing Atoms obejcts and MLIP dynamics | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/Guest%20-%20CompChem%20data/CompChem_data.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
+Guest - CompChem data/
 
 The solutions can be found in this [GitHub repo](https://github.com/schwallergroup/ai4chem_course). Don't forget to leave a star, if you find it useful. 
 
