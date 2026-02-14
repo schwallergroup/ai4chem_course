@@ -11,12 +11,15 @@ A lot of the examples and ideas in this course are taken from the open-source co
 This course is being created by the [LIAC team](https://schwallergroup.github.io/team.html). 
 Many thanks to all the TAs:
 
-- [Victor Sabanza Gil](https://twitter.com/VictorSabanza)
-- [Junwu Chen](https://twitter.com/JunwuChen25)
+- [Cassandra Masschelein]()
+- [Remi Schlama]()
 - [Theo Neukomm](https://twitter.com/TheoNeukomm)
 
 And all the old TAs participating to the creation of the notebooks:
 
+
+- [Victor Sabanza Gil](https://twitter.com/VictorSabanza)
+- [Junwu Chen](https://twitter.com/JunwuChen25)
 - [Bojana Ranković](https://twitter.com/6ojaHa)
 - [Andres CM Bran](https://twitter.com/drecmb)
 - [Jeff Guo](https://twitter.com/JeffGuo__)
@@ -60,7 +63,7 @@ And all the old TAs participating to the creation of the notebooks:
 | 10 | Bayesian Optimisation | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/10%20-%20Bayesian%20optimization/Buchwald-Hartwig-BO.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | 11 | Model deployment: Git(hub) | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/11%20-%20Model%20deployment/git(hub)_tutorial.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | Model deployment: Streamlit | <a href="https://colab.research.google.com/github/schwallergroup/ai4chem_course/blob/main/notebooks/11%20-%20Model%20deployment/streamlit_tutorial.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| 12 | Guest lecture: AlphaFold2 | <a href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| 12 | Guest lecture: TBD | <a href="https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
 The solutions can be found in this [GitHub repo](https://github.com/schwallergroup/ai4chem_course). Don't forget to leave a star, if you find it useful. 
