@@ -96,7 +96,3 @@ The cheminformatics and ML for chemistry have a lively open source community. He
 
 Check them out and don't forget to leave a star on GitHub and follow the authors on Twitter, if you like the content. 
 Those blogs and webpages have all helped me during the creation of this course (and also before, when I was learning about ML for Chemistry).
-
-## Tweets
-
-{{< tweet pschwllr 1629098793399472130 >}}

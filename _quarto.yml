@@ -4,9 +4,69 @@ project:
 book:
   title: "EPFL CH-457"
   author: "Philippe Schwaller"
-  date: "26/5/2023"
+  date: "2024-03-03"
+  page-navigation: true
   chapters:
     - index.qmd
+    - part: Python Essentials
+      chapters:
+        - text: Crash Course
+          href: notebooks/01 - Basics/01a_python_crash_course.ipynb
+        - text: Pandas
+          href: notebooks/01 - Basics/01b_python_essentials_pandas.ipynb 
+        - text: Plotting
+          href: notebooks/01 - Basics/01c_python_essentials_plotting.ipynb
+        - text: RDKit Basics
+          href: notebooks/01 - Basics/01d_rdkit_basics.ipynb
+    - part: Supervised Learning
+      chapters:
+        - text: Introduction to Supervised Learning
+          href: notebooks/02 - Supervised Learning/training_and_evaluating_ml_models.ipynb
+    - part: Deep Learning
+      chapters:
+        - text: Introduction to Deep Learning
+          href: notebooks/03 - Intro to Deep Learning/01_intro_to_dl.ipynb
+        - text: Graph Neural Networks
+          href: notebooks/03 - Intro to Deep Learning/02_graph_nns.ipynb
+        - text: Simple Example with GNNs
+          href: notebooks/03 - Intro to Deep Learning/03_gnn_simple_example.ipynb
+    - part: Unsupervised Learning
+      chapters:
+        - text: Clustering
+          href: notebooks/04 - Unsupervised Learning/Clustering.ipynb 
+        - text: Dimensionality Reduction
+          href: notebooks/04 - Unsupervised Learning/DimensionalityReduction.ipynb
+        - text: Palladium Catalyst Discovery
+          href: notebooks/04 - Unsupervised Learning/palladium_dimers_discovery.ipynb
+    - part: Generative Models
+      chapters:
+        - text: Molecular Generative Models
+          href: notebooks/05 - Generative Models/Molecular Generative Models.ipynb
+        - text: Generative SMILES Models
+          href: notebooks/06 - Generative Models 2/SMILES-LSTM-Walkthrough.ipynb
+    - part: Reaction Prediction
+      chapters:
+      - text: Molecular Transformers
+        href: notebooks/07 - Reaction Prediction/template_free.ipynb
+    - part: Retrosynthesis
+      chapters:
+        - text: Retrosynthetic Prediction
+          href: notebooks/08 - Retrosynthesis/template_based.ipynb
+    - part: Reaction Properties
+      chapters:
+        - text: Atom Mapping
+          href: notebooks/09 - Reaction properties/01_atom_mapping.ipynb
+        - text: Yield Prediction
+          href: notebooks/09 - Reaction properties/02_yield_prediction.ipynb
+    - part: Bayesian Optimization
+      chapters:
+        - text: Buchwald-Hartwig Optimization
+          href: notebooks/10 - Bayesian optimization/Buchwald-Hartwig-BO.ipynb
+    - part: Model Deployment
+      chapters:
+        - text: Streamlit Tutorial
+          href: notebooks/11 - Model deployment/streamlit_tutorial.ipynb
+        - notebooks/11 - Model deployment/streamlit_tutorial.ipynb
     - references.qmd
 
 bibliography: references.bib
@@ -15,8 +75,4 @@ csl: nature.csl
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
-
-
+    number-depth: 0
