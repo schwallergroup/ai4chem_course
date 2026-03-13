@@ -1,0 +1,35 @@
+# Run ffn config
+launcher_args: {experiment_name: 2022_08_07_hidden_size_sweep, 
+                script_name:  run_scripts/train_ffn.py, 
+                slurm_script: launcher_scripts/generic_slurm.sh, 
+                use_slurm: false, 
+                launch_method: local, # Options: slurm, local_parallel, local
+                visible_devices: [0, 1] #1,2,3] #slurm
+}
+universal_args:
+  # Slurm args
+  # Special args should be prefaced with underscores to be handled by loader
+  _slurm_args:
+  - {_num_gpu: 1, cpus-per-task: 8, job-name: ms-train, mem-per-cpu: 8G, #nodelist: 'node[1236]',
+    time: '0-18:00:00'}
+
+  # Base args
+  debug: [false]
+  gpu: [false]
+  seed: [1]
+  num-workers: [1]
+
+  # Worker training args
+  batch-size: [32]
+  max-epochs: [100]
+
+  # Model args
+  layers: [3]
+  dropout: [0.1]
+  hidden-size: [64]
+
+# Each one is iterated over
+iterative_args:
+  - hidden-size: [64, 128, 256]
+    batch-size: [64]
+    layers: [1]
