@@ -1,0 +1,22 @@
+name: dl-chem
+channels:
+- pytorch
+- dglteam
+- conda-forge
+- jamespreed
+- rusty1s
+dependencies:
+- python=3.8.*
+- matplotlib=3.4.*
+- rdkit=2021.03.*
+- cudatoolkit=11.1
+- pytorch-lightning=1.4.*
+- torchmetrics=0.6.*
+- conda-minify=0.1.*
+- pip=21.2.*
+- pytorch::torchvision
+- ipykernel=6.0.*
+- dgl-cuda11.1 #- dgl=0.7.*
+- pytorch::pytorch=1.9.* #- dgl=0.7.*
+- nb_conda_kernels=2.3.*
+- seaborn=0.11.*

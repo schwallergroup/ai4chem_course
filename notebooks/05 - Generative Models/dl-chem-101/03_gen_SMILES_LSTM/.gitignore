@@ -1,0 +1,13 @@
+# Data
+data/zinc.tab
+data/zinc/
+data/zinc/*
+
+# Output
+output/*
+analysis/*png
+
+# Other
+__pycache__/
+*pyc
+*.egg-info

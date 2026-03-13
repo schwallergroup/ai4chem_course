@@ -1,0 +1,5 @@
+PyYAML
+pathos
+setuptools==59.5.0
+PyTDC
+dgllife
