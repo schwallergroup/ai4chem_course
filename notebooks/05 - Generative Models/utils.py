@@ -11,7 +11,7 @@ def load_from_file(file_path : str, sampling_mode : bool=False):
         SmilesLSTM : New instance of the RNN, or an exception if it was not
                      possible to load it.
     """
-    model = torch.load(file_path, map_location='cpu')
+    model = torch.load(file_path, weights_only=False, map_location='cpu')
     if sampling_mode:
         model.network.eval()
 
